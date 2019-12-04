@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://marketplace.canva.com/MADesPKpEeo/1/thumbnail_large/canva-clouds-with-blue-sky-background.-MADesPKpEeo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.body_container {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+.containers {
+    border-style: solid;
+    border-color: royalblue;
+}
+
+#formDiv {
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+@media(max-width: 922px) {
+    .body_container {
+        flex-direction: column;
+    }
+}
