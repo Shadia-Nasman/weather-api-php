@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 3%;
+    justify-content: center;
 }
 
 .containers {
@@ -21,6 +22,8 @@ body {
     font-style: oblique;
     font-weight: bolder;
     font-size: x-large;
+    margin-top: 50px;
+    ;
 }
 
 @media(max-width: 922px) {
