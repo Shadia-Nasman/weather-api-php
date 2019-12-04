@@ -55,17 +55,17 @@ $api_url = "https://api.openweathermap.org/data/2.5/forecast?q=$city&units=metri
 
 		// // temperature Display
 		
-		echo '<p><strong>Temperatuer:</strong> '. $city_data->list[$i]->main->temp. '&deg; C</p>';
+		echo '<p><strong>Temperatuer:<br></strong> '. $city_data->list[$i]->main->temp. '&deg; C</p>';
 
 		
 		// // // wind display
 		
-		echo '<p><strong>wind speed:</strong> '. $city_data->list[$i]->wind->speed.' m/s</p>';
+		echo '<p><strong>wind speed: <br></strong> '. $city_data->list[$i]->wind->speed.' m/s</p>';
 		
 		
 		// // // description display
 		
-		echo '<p><strong>description:</strong> '.$city_data->list[$i]->weather[0]->description.'</p>';
+		echo '<p><strong>description:<br></strong> '.$city_data->list[$i]->weather[0]->description.'</p>';
 		
 
 		 }
